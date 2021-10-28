@@ -30,8 +30,8 @@
 1단계 대문자 'B'와 'T'가 소문자 'b'와 't'로 바뀌었습니다.<br>
 `"...!@BaT#_..y.abcdefghijklm"` → `"...!@bat#_..y.abcdefghijklm"`<br>
 
-2단계 '!', '@', '#', '_' 문자가 제거되었습니다.<br>
-`"...!@bat#_..y.abcdefghijklm"`→`"...bat..y.abcdefghijklm"`<br>
+2단계 '!', '@', '#', '\*' 문자가 제거되었습니다.<br>
+`"...!@bat#*..y.abcdefghijklm"`→`"...bat..y.abcdefghijklm"`<br>
 
 3단계 '...'와 '..' 가 '.'로 바뀌었습니다.<br>
 `"...bat..y.abcdefghijklm"` → `".bat.y.abcdefghijklm"`<br>
